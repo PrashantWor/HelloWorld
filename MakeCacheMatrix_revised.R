@@ -35,5 +35,10 @@ cacheSolve <- function(x, ...) {
   Inv
 }
 
-##add one more commit
+
+## function to verify inverse matrix
+matrixIdentity<-function(a,b){
+  x1<-a %*% b
+  return(x1)
+}
 
